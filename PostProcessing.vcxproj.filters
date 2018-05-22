@@ -16,6 +16,9 @@
     <Filter Include="Resource Files\Shaders">
       <UniqueIdentifier>{adef3690-7c70-40c0-b053-bbc0375b4060}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Data">
+      <UniqueIdentifier>{b5e05872-a0dc-4094-b0c9-f4d2590c34b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="vertexShader.hlsl">
@@ -32,5 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture.jpg">
+      <Filter>Resource Files\Data</Filter>
+    </Image>
   </ItemGroup>
 </Project>
